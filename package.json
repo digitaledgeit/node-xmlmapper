@@ -1,0 +1,28 @@
+{
+  "name": "xmlmapper",
+  "description": "Extract fragments of an XML document as JavaScript objects.",
+  "keywords": [
+    "xml",
+    "parser",
+    "document",
+    "object",
+    "mapper",
+    "xml2object",
+    "xml2json",
+    "json"
+  ],
+  "version": "0.1.0",
+  "main": "lib/Parser.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:digitaledgeit/node-xmlmapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digitaledgeit/node-xmlmapper/issues"
+  },
+  "dependencies": {
+    "node-expat": "^2.3.4",
+    "pathval": "^0.1.1"
+  },
+  "license": "MIT"
+}

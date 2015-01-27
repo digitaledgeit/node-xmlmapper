@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ccb_api>
+     <request>
+          <parameters>
+               <argument value="individual_profiles" name="srv"/>
+          </parameters>
+     </request>
+     <response>
+          <service>individual_profiles</service>
+          <service_action>execute</service_action>
+          <availability>public</availability>
+          <individuals count="3003">
+               <individual id="1">
+                    <sync_id></sync_id>
+                    <other_id></other_id>
+                    <giving_number></giving_number>
+                    <campus id="2">Downtown Campus</campus>
+                    <family id="168">The Smith Family</family>
+                    <family_image>https://cdn5.ccbchurch.com/2/images/group-default.gif</family_image>
+                    <family_position>Primary Contact</family_position>
+                    <family_members>
+                         <family_member>
+                              <individual id="220">Gina Smith</individual>
+                              <family_position>Spouse</family_position>
+                         </family_member>
+                    </family_members>
+                    <first_name>John</first_name>
+                    <last_name>Smith</last_name>
+                    <middle_name></middle_name>
+                    <legal_first_name></legal_first_name>
+                    <full_name>John Smith</full_name>
+                    <salutation></salutation>
+                    <suffix></suffix>
+                    <image>https://s3.amazonaws.com/ccbchurch/10622/pics/ipic_1?AWSAccessKeyId=AKIAJ4CISARDRJPE4ERQ&amp;Expires=1422232975&amp;Signature=am7xVpJJJxxswHqs%2BiRAFRqscBo%3D</image>
+                    <email></email>
+                    <allergies></allergies>
+                    <confirmed_no_allergies>false</confirmed_no_allergies>
+                    <addresses>
+                         <address type="mailing">
+                              <street_address></street_address>
+                              <city></city>
+                              <state></state>
+                              <zip></zip>
+                              <country code=""> </country>
+                              <line_1></line_1>
+                              <line_2></line_2>
+                              <latitude>38.793713</latitude>
+                              <longitude>-104.838262</longitude>
+                         </address>
+                         <address type="home">
+                              <street_address>1234 Fifth Street</street_address>
+                              <city>Colorado Springs</city>
+                              <state>CO</state>
+                              <zip>80920</zip>
+                              <country code="US">United States</country>
+                              <line_1>1234 Fifth Street</line_1>
+                              <line_2>Colorado Springs, CO 80920</line_2>
+                         </address>
+                         <address type="work">
+                              <street_address>1234 Main Street</street_address>
+                              <city>Colorado Springs</city>
+                              <state>CO</state>
+                              <zip>55999</zip>
+                              <country code=""> </country>
+                              <line_1>1234 Main Street</line_1>
+                              <line_2>Colorado Springs, CO 55999</line_2>
+                         </address>
+                         <address type="other">
+                              <street_address></street_address>
+                              <city></city>
+                              <state>CO</state>
+                              <zip></zip>
+                              <country code=""> </country>
+                              <line_1></line_1>
+                              <line_2>CO</line_2>
+                         </address>
+                    </addresses>
+                    <phones>
+                         <phone type="contact">(719) 555-1111</phone>
+                         <phone type="home"></phone>
+                         <phone type="work"></phone>
+                         <phone type="mobile"></phone>
+                         <phone type="emergency"></phone>
+                    </phones>
+                    <mobile_carrier id="0"> </mobile_carrier>
+                    <gender></gender>
+                    <marital_status>Married</marital_status>
+                    <birthday></birthday>
+                    <emergency_contact_name></emergency_contact_name>
+                    <anniversary></anniversary>
+                    <baptized>false</baptized>
+                    <deceased></deceased>
+                    <membership_type id=""> </membership_type>
+                    <membership_date></membership_date>
+                    <membership_end></membership_end>
+                    <receive_email_from_church>true</receive_email_from_church>
+                    <default_new_group_messages>Always</default_new_group_messages>
+                    <default_new_group_comments>Never</default_new_group_comments>
+                    <default_new_group_digest>Group Default</default_new_group_digest>
+                    <default_new_group_sms>Never</default_new_group_sms>
+                    <privacy_settings>
+                         <profile_listed>true</profile_listed>
+                         <mailing_address id="4">Everyone</mailing_address>
+                         <home_address id="4">Everyone</home_address>
+                         <contact_phone id="4">Everyone</contact_phone>
+                         <home_phone id="4">Everyone</home_phone>
+                         <work_phone id="4">Everyone</work_phone>
+                         <mobile_phone id="4">Everyone</mobile_phone>
+                         <emergency_phone id="4">Everyone</emergency_phone>
+                         <birthday id="1">Church Leadership</birthday>
+                         <anniversary id="4">Everyone</anniversary>
+                         <gender id="4">Everyone</gender>
+                         <marital_status id="2">My Friends</marital_status>
+                         <user_defined_fields id="4">Everyone</user_defined_fields>
+                         <allergies id="1">Church Leadership</allergies>
+                    </privacy_settings>
+                    <active>true</active>
+                    <creator id="1">John Smith</creator>
+                    <modifier id="0">System User</modifier>
+                    <created>2003-06-12 17:02:09</created>
+                    <modified>2014-02-13 11:25:12</modified>
+                    <user_defined_text_fields>
+                         <user_defined_text_field>
+                              <name>udf_text_1</name>
+                              <label>SecureSearch</label>
+                              <text>&lt;a href=&quot;http://testwidget.webccf.com/CCBPage/EP/2268&quot; target=&quot;_blank&quot;&gt;Access&lt;/a&gt;</text>
+                              <admin_only>true</admin_only>
+                         </user_defined_text_field>
+                         <user_defined_text_field>
+                              <name>udf_text_6</name>
+                              <label>SecureSearch</label>
+                              <text>&lt;a href=&quot;http://testwidget.webccf.com/CCBPage/EP/1&quot; target=&quot;_blank&quot;&gt;Access&lt;/a&gt;</text>
+                              <admin_only>true</admin_only>
+                         </user_defined_text_field>
+                    </user_defined_text_fields>
+                    <user_defined_date_fields/>
+                    <user_defined_pulldown_fields>
+                         <user_defined_pulldown_field>
+                              <name>udf_pulldown_3</name>
+                              <label>Do u believe me</label>
+                              <selection id="1">Yes</selection>
+                              <admin_only>false</admin_only>
+                         </user_defined_pulldown_field>
+                    </user_defined_pulldown_fields>
+               </individual>
+               <individual id="2">
+                    <sync_id></sync_id>
+                    <other_id></other_id>
+                    <giving_number></giving_number>
+                    <campus id="1">Main Campus</campus>
+                    <family id="1">The Trout Family</family>
+                    <family_image>https://cdn5.ccbchurch.com/2/images/group-default.gif</family_image>
+                    <family_position>Primary Contact</family_position>
+                    <family_members>
+                         <family_member>
+                              <individual id="3">Rainbow Trout</individual>
+                              <family_position>Child</family_position>
+                         </family_member>
+                    </family_members>
+                    <first_name>Brown</first_name>
+                    <last_name>Trout</last_name>
+                    <middle_name></middle_name>
+                    <legal_first_name></legal_first_name>
+                    <full_name>Brown Trout</full_name>
+                    <salutation></salutation>
+                    <suffix></suffix>
+                    <image>https://cdn5.ccbchurch.com/2/images/profile-default.gif</image>
+                    <email></email>
+                    <allergies></allergies>
+                    <confirmed_no_allergies>false</confirmed_no_allergies>
+                    <addresses>
+                         <address type="mailing">
+                              <street_address>1234 main street</street_address>
+                              <city>alpharetta</city>
+                              <state>GA</state>
+                              <zip>30005</zip>
+                              <country code="US">United States</country>
+                              <line_1>1234 main street</line_1>
+                              <line_2>alpharetta, GA 30005</line_2>
+                              <latitude>34.066140</latitude>
+                              <longitude>-84.308770</longitude>
+                         </address>
+                         <address type="home">
+                              <street_address></street_address>
+                              <city></city>
+                              <state></state>
+                              <zip></zip>
+                              <country code=""> </country>
+                              <line_1></line_1>
+                              <line_2></line_2>
+                         </address>
+                         <address type="work">
+                              <street_address></street_address>
+                              <city></city>
+                              <state></state>
+                              <zip></zip>
+                              <country code=""> </country>
+                              <line_1></line_1>
+                              <line_2></line_2>
+                         </address>
+                         <address type="other">
+                              <street_address></street_address>
+                              <city></city>
+                              <state></state>
+                              <zip></zip>
+                              <country code=""> </country>
+                              <line_1></line_1>
+                              <line_2></line_2>
+                         </address>
+                    </addresses>
+                    <phones>
+                         <phone type="contact">(719) 555-1111</phone>
+                         <phone type="home"></phone>
+                         <phone type="work"></phone>
+                         <phone type="mobile"></phone>
+                         <phone type="emergency"></phone>
+                    </phones>
+                    <mobile_carrier id="0"> </mobile_carrier>
+                    <gender>F</gender>
+                    <marital_status>Married</marital_status>
+                    <birthday>1979-05-30</birthday>
+                    <emergency_contact_name></emergency_contact_name>
+                    <anniversary></anniversary>
+                    <baptized>false</baptized>
+                    <deceased></deceased>
+                    <membership_type id=""> </membership_type>
+                    <membership_date></membership_date>
+                    <membership_end></membership_end>
+                    <receive_email_from_church>true</receive_email_from_church>
+                    <default_new_group_messages>Group Default</default_new_group_messages>
+                    <default_new_group_comments>Group Default</default_new_group_comments>
+                    <default_new_group_digest>Group Default</default_new_group_digest>
+                    <default_new_group_sms>Never</default_new_group_sms>
+                    <privacy_settings>
+                         <profile_listed>true</profile_listed>
+                         <mailing_address id="4">Everyone</mailing_address>
+                         <home_address id="4">Everyone</home_address>
+                         <contact_phone id="4">Everyone</contact_phone>
+                         <home_phone id="4">Everyone</home_phone>
+                         <work_phone id="4">Everyone</work_phone>
+                         <mobile_phone id="4">Everyone</mobile_phone>
+                         <emergency_phone id="4">Everyone</emergency_phone>
+                         <birthday id="4">Everyone</birthday>
+                         <anniversary id="4">Everyone</anniversary>
+                         <gender id="4">Everyone</gender>
+                         <marital_status id="4">Everyone</marital_status>
+                         <user_defined_fields id="4">Everyone</user_defined_fields>
+                         <allergies id="4">Everyone</allergies>
+                    </privacy_settings>
+                    <active>true</active>
+                    <creator id="1">John Smith</creator>
+                    <modifier id="0">System User</modifier>
+                    <created>2003-06-12 17:36:21</created>
+                    <modified>2014-06-01 03:13:21</modified>
+                    <user_defined_text_fields>
+                         <user_defined_text_field>
+                              <name>udf_text_1</name>
+                              <label>SecureSearch</label>
+                              <text>&lt;a href=&quot;http://testwidget.webccf.com/CCBPage/EP/2269&quot; target=&quot;_blank&quot;&gt;Access&lt;/a&gt;</text>
+                              <admin_only>true</admin_only>
+                         </user_defined_text_field>
+                         <user_defined_text_field>
+                              <name>udf_text_2</name>
+                              <label>BGCK Completed</label>
+                              <text>11/24/2014 08:22:25 MST</text>
+                              <admin_only>true</admin_only>
+                         </user_defined_text_field>
+                         <user_defined_text_field>
+                              <name>udf_text_6</name>
+                              <label>SecureSearch</label>
+                              <text>&lt;a href=&quot;http://testwidget.webccf.com/CCBPage/EP/2&quot; target=&quot;_blank&quot;&gt;Access&lt;/a&gt;</text>
+                              <admin_only>true</admin_only>
+                         </user_defined_text_field>
+                    </user_defined_text_fields>
+                    <user_defined_date_fields/>
+                    <user_defined_pulldown_fields/>
+               </individual>
+               <individual id="3">
+                    <sync_id></sync_id>
+                    <other_id></other_id>
+                    <giving_number></giving_number>
+                    <campus id="1">Main Campus</campus>
+                    <family id="1">The Trout Family</family>
+                    <family_image>https://cdn5.ccbchurch.com/2/images/group-default.gif</family_image>
+                    <family_position>Child</family_position>
+                    <family_members>
+                         <family_member>
+                              <individual id="2">Brown Trout</individual>
+                              <family_position>Primary Contact</family_position>
+                         </family_member>
+                    </family_members>
+                    <first_name>Rainbow</first_name>
+                    <last_name>Trout</last_name>
+                    <middle_name></middle_name>
+                    <legal_first_name></legal_first_name>
+                    <full_name>Rainbow Trout</full_name>
+                    <salutation></salutation>
+                    <suffix></suffix>
+                    <image>https://cdn5.ccbchurch.com/2/images/profile-default.gif</image>
+                    <email></email>
+                    <allergies>peanuts / epipen</allergies>
+                    <confirmed_no_allergies>false</confirmed_no_allergies>
+                    <addresses>
+                         <address type="mailing">
+                              <street_address>1234 main street</street_address>
+                              <city>alpharetta</city>
+                              <state>GA</state>
+                              <zip>30005</zip>
+                              <country code="US">United States</country>
+                              <line_1>1234 main street</line_1>
+                              <line_2>alpharetta, GA 30005</line_2>
+                              <latitude>34.066140</latitude>
+                              <longitude>-84.308770</longitude>
+                         </address>
+                         <address type="home">
+                              <street_address></street_address>
+                              <city></city>
+                              <state></state>
+                              <zip></zip>
+                              <country code=""> </country>
+                              <line_1></line_1>
+                              <line_2></line_2>
+                         </address>
+                         <address type="work">
+                              <street_address></street_address>
+                              <city></city>
+                              <state></state>
+                              <zip></zip>
+                              <country code=""> </country>
+                              <line_1></line_1>
+                              <line_2></line_2>
+                         </address>
+                         <address type="other">
+                              <street_address></street_address>
+                              <city></city>
+                              <state></state>
+                              <zip></zip>
+                              <country code=""> </country>
+                              <line_1></line_1>
+                              <line_2></line_2>
+                         </address>
+                    </addresses>
+                    <phones>
+                         <phone type="contact">(719) 555-1111</phone>
+                         <phone type="home"></phone>
+                         <phone type="work"></phone>
+                         <phone type="mobile"></phone>
+                         <phone type="emergency"></phone>
+                    </phones>
+                    <mobile_carrier id="0"> </mobile_carrier>
+                    <gender></gender>
+                    <marital_status></marital_status>
+                    <birthday></birthday>
+                    <emergency_contact_name></emergency_contact_name>
+                    <anniversary></anniversary>
+                    <baptized>false</baptized>
+                    <deceased></deceased>
+                    <membership_type id=""> </membership_type>
+                    <membership_date></membership_date>
+                    <membership_end></membership_end>
+                    <receive_email_from_church>true</receive_email_from_church>
+                    <default_new_group_messages>Group Default</default_new_group_messages>
+                    <default_new_group_comments>Group Default</default_new_group_comments>
+                    <default_new_group_digest>Group Default</default_new_group_digest>
+                    <default_new_group_sms>Never</default_new_group_sms>
+                    <privacy_settings>
+                         <profile_listed>true</profile_listed>
+                         <mailing_address id="4">Everyone</mailing_address>
+                         <home_address id="4">Everyone</home_address>
+                         <contact_phone id="4">Everyone</contact_phone>
+                         <home_phone id="4">Everyone</home_phone>
+                         <work_phone id="4">Everyone</work_phone>
+                         <mobile_phone id="4">Everyone</mobile_phone>
+                         <emergency_phone id="4">Everyone</emergency_phone>
+                         <birthday id="4">Everyone</birthday>
+                         <anniversary id="4">Everyone</anniversary>
+                         <gender id="4">Everyone</gender>
+                         <marital_status id="4">Everyone</marital_status>
+                         <user_defined_fields id="4">Everyone</user_defined_fields>
+                         <allergies id="4">Everyone</allergies>
+                    </privacy_settings>
+                    <active>true</active>
+                    <creator id="1">John Smith</creator>
+                    <modifier id="0">System User</modifier>
+                    <created>2003-06-12 17:37:45</created>
+                    <modified>2014-02-24 13:54:54</modified>
+                    <user_defined_text_fields>
+                         <user_defined_text_field>
+                              <name>udf_text_1</name>
+                              <label>SecureSearch</label>
+                              <text>&lt;a href=&quot;http://testwidget.webccf.com/CCBPage/EP/2270&quot; target=&quot;_blank&quot;&gt;Access&lt;/a&gt;</text>
+                              <admin_only>true</admin_only>
+                         </user_defined_text_field>
+                         <user_defined_text_field>
+                              <name>udf_text_6</name>
+                              <label>SecureSearch</label>
+                              <text>&lt;a href=&quot;http://testwidget.webccf.com/CCBPage/EP/3&quot; target=&quot;_blank&quot;&gt;Access&lt;/a&gt;</text>
+                              <admin_only>true</admin_only>
+                         </user_defined_text_field>
+                    </user_defined_text_fields>
+                    <user_defined_date_fields/>
+                    <user_defined_pulldown_fields/>
+               </individual>
+          </individuals>
+     </response>
+</ccb_api>

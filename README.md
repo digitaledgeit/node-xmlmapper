@@ -6,7 +6,7 @@ Useful for large XML documents where you only care about a subset of the values.
 
 ## Installation 
 
-    npm install --save xml2object
+    npm install --save xmlmapper
     
 ## Usage
 

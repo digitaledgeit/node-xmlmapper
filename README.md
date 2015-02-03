@@ -11,7 +11,7 @@ Useful for large XML documents where you only care about a subset of the values.
 ## Usage
 
     var fs      = require('fs');
-    var Parser  = require('xml2object');
+    var Parser  = require('xmlmapper');
 
     var schema = {
         name: 'individual',

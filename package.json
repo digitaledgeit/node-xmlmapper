@@ -4,14 +4,15 @@
   "keywords": [
     "xml",
     "parser",
-    "document",
     "object",
     "mapper",
     "xml2object",
+    "xml2js",
     "xml2json",
+    "document",
     "json"
   ],
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/Parser.js",
   "repository": {
     "type": "git",
@@ -21,8 +22,11 @@
     "url": "https://github.com/digitaledgeit/node-xmlmapper/issues"
   },
   "dependencies": {
-    "node-expat": "^2.3.4",
+    "node-expat": "^2.3.8",
     "pathval": "^0.1.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "memory-streams": "^0.1.0"
+  }
 }
